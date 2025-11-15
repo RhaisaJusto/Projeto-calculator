@@ -1,0 +1,61 @@
+<html>
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta lang="pt-br">
+   
+ <link rel="stylesheet" href="style.css">
+ <link rel="icon" type="image/x-icon" href="icon.ico">
+    
+<title>Calculadora JavaScript</title>
+
+</head>
+
+
+<body>
+
+<h1 class="texto-titulo">Essa é uma calculadora criada utilizando a liguagem de 
+    <p2 class="texto-javascript">JavaScript</p2> 
+</h1>
+
+
+<!---CALCULADORA-->
+
+<div class="calculator">
+
+    <input type="text" disabled id="display"> <!---->
+    <div class="box-buttons">
+        <button class="cor-apagar" onClick="clean()">C</button>
+        <button class="cor-apagar" onClick="back()">&lt;</button>
+        <button class="cor-operacoes" onClick="percentage()">%</button>
+        <button class="cor-operacoes" onClick="insertToDisplay('/')">/</button>
+        <button class="cor-operacoes" onClick="insertToDisplay('*')">*</button>
+        <button onClick="insertToDisplay('7')">7</button>
+        <button onClick="insertToDisplay('8')">8</button>
+        <button onClick="insertToDisplay('9')">9</button>
+        <button class="cor-operacoes" onClick="insertToDisplay('-')">-</button>
+        <button onClick="insertToDisplay('4')">4</button>
+        <button onClick="insertToDisplay('5')">5</button>
+        <button onClick="insertToDisplay('6')">6</button>
+        <button class="cor-operacoes" onClick="insertToDisplay('+')">+</button>
+        <button onClick="insertToDisplay('1')">1</button>
+        <button onClick="insertToDisplay('2')">2</button>
+        <button onClick="insertToDisplay('3')">3</button>
+        <button class="btn-zero" onClick="insertToDisplay('0')">0</button>
+        <button onClick="insertToDisplay('.')">.</button>
+        <button class="btn-result" onClick="result()">=</button>
+    </div>
+</div>
+
+<footer class="footer">
+    <p> &copy; 2025 - Todos os direitos reservados - Feito por Rhaísa Justo </p>
+</footer>
+
+
+
+</body>
+
+
+
+<script src="main.js"></script>
+</html>
